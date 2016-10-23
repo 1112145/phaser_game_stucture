@@ -7,5 +7,6 @@ GameConfig = {
   PATH_IMG_SPRITESHEETS: 'assets/images/spritesheets/',
   PATH_IMG_ATLAS_SPRITES: 'assets/images/atlas_sprites/',
   PATH_MUSIC: 'assets/sounds/BG_MUSIC/',
-  PATH_SFX: 'assets/sounds/SFX/'
+  PATH_SFX: 'assets/sounds/SFX/',
+  PATH_VIDEO: 'assets/videos/'
 }

@@ -2,7 +2,7 @@
 // Game SplashScreen
 
 SplashScreen = function(game){
-    this.FADE_IN_TIME =  3000;
+    this.FADE_IN_TIME =  2000;
     this.NEXT_STATE =  'Preloader';
     this.PATH_LOGO = GameConfig.PATH_IMG_SPRITES + 'logo.png';
     this.POS_LOGO = {x: game.width/2, y: game.height/2}
