@@ -25,6 +25,9 @@ SplashScreen.prototype = {
         game.load.image('logo', this.PATH_LOGO);
     },
     create: function() {
+        GameConfig.responsiveDisplay();
+        GameConfig.randomMyFavorStageColor();
+
         this.logo = game.add.image(this.POS_LOGO.x, this.POS_LOGO.y, 'logo');
         this.fadeInLogo();
     },
@@ -36,6 +39,7 @@ SplashScreen.prototype = {
         this.NEXT_STATE = SPLASH_SCREEN_CONST.NextState;
         this.PATH_LOGO = SPLASH_SCREEN_CONST.LogoPath;
         this.POS_LOGO = SPLASH_SCREEN_CONST.LogoPos;
+
     },
     goToNextState: function() {
         game.state.start(this.NEXT_STATE);
